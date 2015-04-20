@@ -15,6 +15,7 @@ You can create smart apps here: [https://graph.api.smartthings.com/ide/apps](htt
 
 *Note: You may not have access to this section if you are not registered as a developer.*
 
+
 ## JSON API Endpoints
 First off, you need to be logged into http://graph.api.smarthings.com … Which is simple enough. You can then go on to see a list of your hubs and events, among other things, in their dashboard. However, we're after JSON responses and all of hte data you see here is available in (seemingly open) JSON responses.
 
@@ -118,6 +119,7 @@ Example response:
 			permissions: "a"
 		}
 	]
+
 
 ### Hub Details
 Get information about a hub, the connected devices, and recent events. The ten latest events appear to be displayed.    
